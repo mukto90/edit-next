@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Edit Next
+Plugin Name: Edit Next Post
 Description: Switch to another post in edit screen
-Plugin URI: http://codebanyan.com/product/edit-next
+Plugin URI: https://wordpress.org/plugins/edit-next
 Author: Nazmul Ahsan
 Author URI: http://nazmulashan.me
-Version: 1.0
+Version: 1.0.0
 License: GPL2
 Text Domain: edit-next
 Domain Path: /languages
@@ -110,13 +110,15 @@ class CB_Edit_Next {
 		wp_reset_query();
 		$p = new WP_Query( $args );
 
-		$html = '<span>Choose another ' . $post_type . ' to edit.</span>';
+		$html = '<span>Choose another ' . $post_type . ' to edit</span>';
 		$html .= '<select id="select-edit-next" style="width:100%">';
 		$html .= '<option value=""> - Choose another ' . $post_type . ' - </option>';
 
 		// we are using foreach instead of have_posts() to avoid post slug conflict issues
 		foreach( $p->posts as $post ) :
+			if( current_user_can( 'edit_post', $post->ID ) ) :
 			$html .= '<option value="' . $post->ID . '" ' . selected( $_GET['post'], $post->ID, false ) . '>' . $post->post_title . ' (' . ucwords( $post->post_status ) . ')' . '</option>';
+			endif;
 		endforeach;
 		wp_reset_query();
 
