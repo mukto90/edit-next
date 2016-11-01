@@ -1,5 +1,5 @@
 #Edit Next Post
-![Edit Next Post](http://easycaptures.com/fs/uploaded/1106/5728663965.png "Edit Next Post")
+![Edit Next Post](http://easycaptures.com/fs/uploaded/1106/8709501872.png "Edit Next Post")
 ##Switch to another post in edit screen
 
 ###Description
