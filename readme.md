@@ -1,13 +1,13 @@
 #Edit Next Post
-![Edit Next Post](https://ps.w.org/edit-next/assets/banner-772x250.png "Edit Next Post")
+![Edit Next Post](http://easycaptures.com/fs/uploaded/1106/5728663965.png "Edit Next Post")
 ##Switch to another post in edit screen
 
 ###Description
 Switch to another post in edit screen. It'll show a meta box at top-right of the edit screen that allows to switch between posts. Works for posts, pages or any custom post types.
 
 ###Screenshots
-!['Edit Next' metabox in edit screen](https://ps.w.org/edit-next/assets/screenshot-1.png "'Edit Next' metabox in edit screen")
-![You can search posts as well](https://ps.w.org/edit-next/assets/screenshot-2.png "You can search posts as well")
+!['Edit Next' metabox in edit screen](http://easycaptures.com/fs/uploaded/1106/1354987181.png "'Edit Next' metabox in edit screen")
+![You can search posts as well](http://easycaptures.com/fs/uploaded/1106/3882711148.png "You can search posts as well")
 
 ###Installation
 
